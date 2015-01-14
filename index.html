@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/custom/home.css" rel="stylesheet">
+    <link href="css/socialButtons.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+<?php include('test.php');?>
+<!--NavBar-->
+<div id="navWrapper" class="navbar-wrapper">
+    <div id="navContainer" class="container">
+        <div class="">
+            <nav id="nav" class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <!--<div class="">-->
+                    <a class="navbar-brand">
+                        <h1 id="navTitle">Gardopia Gardens<br>
+                            <small id="navSubTitle">Fruit & Vegetable Landscaping</small>
+                        </h1>
+                        <h5 id="navMotto">Changing the world, one garden at a time.</h5>
+                    </a>
+                <!--</div>-->
+                <!--<div class="">-->
+                    <!--<div class="navbar-header">-->
+                        <button id="navBtn" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar"
+                                aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    <!--</div>-->
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="html/services.html">Services/Fees</a></li>
+                            <li><a href="html/faq.html">FAQ</a></li>
+                            <li><a href="html/about.html">About</a></li>
+                            <li><a href="html/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                <!--</div>-->
+            </nav>
+        </div>
+    </div>
+</div>
+<!--====================================================================-->
+
+<!--Carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div id="crslImgOne" class="item active center-block crsl">
+            <img src="img/gardenHD.jpg"
+                 alt="Could not find image!">
+
+            <div class="container center-block">
+                <div class="carousel-caption">
+                    <h1>Example Headline 1</h1>
+
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Getting Started</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="crslImgTwo" class="item center-block crsl">
+            <img src=""
+                 alt="Could not find image!">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Example Headline 2</h1>
+
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Getting Started</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="crslImgThree" class="item center-block crsl">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                 alt="Could not find image!">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Example Headline 3</h1>
+
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Getting Started</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!--==================================================================-->
+
+<div id="marketingWrapper" class="container marketing">
+    <hr class="featurette-divider">
+    <div class="text-center">
+        <!--TODO: update phone number-->
+        <p>
+            <a class="btn btn-lg btn-success" href="tel:+1-123-456-7890" role="button">
+                Call for a quote: <strong>123-456-7890</strong></a>
+        </p>
+
+        <p><a class="btn btn-lg btn-info" href="mailto:GardopiaInc@gmail.com" role="button">Send an Email</a></p>
+    </div>
+    <br>
+    <hr class="featurette-divider">
+
+    <div class="row">
+        <h2 class="featurette-heading text-center divTitle">Social</h2>
+        <!--Twitter feed-->
+        <a class="twitter-timeline" href="https://twitter.com/GardopiaGardens" data-widget-id="554383387884916736"
+           height="300px" width="300px">Tweets by @GardopiaGardens</a>
+    </div>
+
+    <hr class="featurette-divider">
+    <h2 id="divTypes" class="featurette-heading text-center divTitle">Garden Types</h2>
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><a href="html/services.html" class="text-info">Community Gardens </a><br>Get
+                your community
+                involved in growing a variety of produce.</h2>
+        </div>
+        <div class="col-md-5">
+            <img class="mktImg featurette-image img-responsive" src="img/garden1.jpg"
+                 alt="Could not find image!">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img class="mktImg featurette-image img-responsive" src="img/garden2.jpg"
+                 alt="Could not find image!">
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><a href="html/services.html" class="text-info">Educational Gardens</a>
+                <br>
+                Teach your students how to grow their own fruits and
+                vegetables.
+            </h2>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="mktPics featurette-heading"><br><a href="html/services.html" class="text-info">Residential
+                Gardens
+            </a><br> Grow your own produce, whether at a house or apartment.
+            </h2>
+        </div>
+        <div class="col-md-5">
+            <img class="mktImg featurette-image img-responsive" src="img/garden3.jpg"
+                 alt="Could not find image!">
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<div id="footer" class="bottom">
+    <div class="container">
+        <div class="col-xs-4">
+            <h5>Garden Growing Tips</h5>
+            <a href="">Some link</a><br>
+            <a href="">Some link</a>
+        </div>
+        <div class="col-xs-4">
+            <h5>Nutrition Education</h5>
+            <a href="">Some link</a><br>
+            <a href="">Some link</a>
+        </div>
+        <div class="col-xs-4">
+            <h5>More Links</h5>
+            <a href="">Some link</a><br>
+            <a href="">Some link</a>
+        </div>
+    </div>
+    <div id="footerSig" class="container">
+        <div class="col-md-6">
+            <p>&copy; 2014 GardopiaGardens, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </div>
+        <div id="socialButtons" class="col-md-6">
+            <a class="facebookBtn smGlobalBtn" href="https://facebook.com/GardopiaGardens"></a>
+            <a class="twitterBtn smGlobalBtn" href="https://twitter.com/GardopiaGardens"></a>
+            <a class="googleplusBtn smGlobalBtn"
+            href="https://plus.google.com/u/0/113528160845835833029"></a>
+        </div>
+        <a class="pull-right" href="#">Back to top</a>
+    </div>
+</div>
+
+
+<!--===========================JS Dependencies==================================================================-->
+<!--============================================================================================================-->
+<script src="js/vendor/jquery-1.10.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/custom/home.js"></script>
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="js/bootstrap/bootstrap.js"></script>
+<script src="js/docs.min.js"></script>
+<script>!function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + "://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "twitter-wjs");
+</script>
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>

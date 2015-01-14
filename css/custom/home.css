@@ -1,0 +1,119 @@
+#navWrapper {
+    margin-top: 0;
+}
+
+#navContainer {
+    height: 55px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#nav {
+    padding-bottom: 65px;
+    width: 100%;
+    box-shadow: 18px 8px 20px #888888;
+}
+
+/* SmartPhones */
+@media only screen and (max-width: 760px) {
+    #navbar {
+        padding-top: 95px;
+        border-top: none; !important;
+    }
+}
+
+#navBtn {
+    margin-bottom: 20px;
+}
+
+#navTitle {
+    margin-top: 0;
+    font-family: fantasy;
+    font-weight: bolder;
+    color: rgba(108, 153, 97, 0.76);
+}
+
+#navSubTitle {
+    color: rgba(108, 153, 97, 0.76);
+}
+
+#navMotto {
+    margin-top: -9px;
+    margin-left: 6px;
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+#myCarousel {
+    top: 170px;
+    /*box-shadow: 18px 8px 60px #888888;*/
+}
+
+.img-circle {
+    width: 140px;
+    height: 140px;
+}
+
+.crsl {
+    height: 500px;
+}
+
+.fb-like-box {
+    padding-left: 50px;
+    width: 350px;
+    height: 300px;
+}
+
+.text-info {
+    color: rgba(108, 153, 97, 0.76);
+}
+
+#marketingWrapper {
+    padding-top: 55px;
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+    padding-bottom: 180px;
+}
+
+.mktImg {
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 60px #888888;
+    border-radius: 5px;
+}
+
+.divTitle {
+    margin-top: -60px;
+}
+
+#divTypes {
+    padding-bottom: 50px;
+}
+
+#socialButtons {
+    text-align: center;
+}
+
+#footer {
+    /*background-color: #f5f5f5;*/
+    background: #e4efc0; /* Old browsers */
+    background: -moz-linear-gradient(top, #e4efc0 0%, #abbd73 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e4efc0), color-stop(100%, #abbd73)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e4efc0 0%, #abbd73 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e4efc0 0%, #abbd73 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e4efc0 0%, #abbd73 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #e4efc0 0%, #abbd73 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4efc0', endColorstr='#abbd73', GradientType=0); /* IE6-9 */
+
+    border-top: 1px solid #ddd;
+    position: absolute;
+    height: auto;
+    width: 100%;
+}
+
+#footerSig {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+}

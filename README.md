@@ -1,2 +1,2 @@
 # gardopia
-Static bootstrap website - Gardopia Gardens fruit &amp; vegetable landscaping company
+Static bootstrap/angular website - Gardopia Gardens fruit &amp; vegetable landscaping company

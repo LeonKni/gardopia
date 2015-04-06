@@ -1,7 +1,6 @@
-/*TODO: condense header/body content to max width for wider screens not to stretch content *******/
 #myCarousel {
     top: 170px;
-    /*box-shadow: 18px 8px 60px #888888;*/
+    margin-top: -130px;
 }
 
 .img-circle {
@@ -34,4 +33,26 @@
 
 #divTypes {
     padding-bottom: 50px;
+}
+
+#twitterPlugin {
+    padding-right: 20px;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.uiViewContent{
+    padding-bottom: 40px;
+}
+
+html {
+    height: 100%;
+}
+
+html body {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 90px;
 }

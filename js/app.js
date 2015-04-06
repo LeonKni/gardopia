@@ -28,13 +28,17 @@
                 url: 'gardening',
                 templateUrl: 'html/partials/gardening.html'
             })
-            .state('projects', {
-                url: 'projects',
-                templateUrl: 'html/partials/community.html'
+            .state('education', {
+                url: 'education',
+                templateUrl: 'html/partials/education.html'
             })
-            .state('faq', {
-                url: 'faq',
-                templateUrl: 'html/partials/faq.html'
+            .state('nutrition', {
+                url: 'nutrition',
+                templateUrl: 'html/partials/nutrition.html'
+            })
+            .state('communityNews', {
+                url: 'communityNews',
+                templateUrl: 'html/partials/communityNews.html'
             })
             .state('about', {
                 url: 'about',

@@ -44,6 +44,10 @@
                 url: 'about',
                 templateUrl: 'html/partials/about.html'
             })
+            .state('faq', {
+                url: 'faq',
+                templateUrl: 'html/partials/faq.html'
+            })
             .state('contact', {
                 url: 'contact',
                 templateUrl: 'html/partials/contact.html'

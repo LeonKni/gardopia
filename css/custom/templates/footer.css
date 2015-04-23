@@ -28,3 +28,9 @@
 .text-green {
     color: rgba(108, 153, 97, 0.76);
 }
+
+#footerDivider {
+    width: 81%;
+    margin-left: 9%;
+    border-top-color: #D2D2D2;
+}

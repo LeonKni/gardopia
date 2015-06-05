@@ -39,11 +39,15 @@
     padding-right: 20px;
 }
 
+#btnEmail {
+    width: 290px;
+}
+
 .noMargin {
     margin: 0;
 }
 
-.uiViewContent{
+.uiViewContent {
     padding-bottom: 40px;
 }
 
